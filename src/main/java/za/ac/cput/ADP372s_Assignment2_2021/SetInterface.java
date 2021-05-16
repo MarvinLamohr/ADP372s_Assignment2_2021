@@ -5,17 +5,6 @@ import java.util.Set;
 
 public class SetInterface {
 
-    private String play = "";
-
-    public String getPlay() {
-        return play;
-    }
-
-    public void setPlay(String play) {
-        this.play = play;
-    }
-
-
     Set <String> setPlay = new LinkedHashSet<>();
 
     public void addSet(String set){

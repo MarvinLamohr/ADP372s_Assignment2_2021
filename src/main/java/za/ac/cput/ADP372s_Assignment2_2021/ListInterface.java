@@ -5,17 +5,6 @@ import java.util.List;
 
 public class ListInterface {
 
-    private String groceries = "";
-
-    public String getGroceries() {
-        return groceries;
-    }
-
-    public void setGroceries(String groceries) {
-        this.groceries = groceries;
-    }
-
-
     List <String> listGroceries = new LinkedList<>();
 
     public void addList(String list){
@@ -28,7 +17,6 @@ public class ListInterface {
         listGroceries.add("Fruit");
 
         System.out.println(list);
-
 
     }
 
